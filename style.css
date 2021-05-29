@@ -1,0 +1,66 @@
+/* Reset */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Josefin Sans";
+  color: #252525;
+}
+* {
+  box-sizing: border-box;
+}
+/*  */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.intro {
+  background: url(/images/desktop/image-hero.jpg);
+  height: 650px;
+}
+.menu img {
+  object-fit: contain;
+}
+.menu {
+  position: absolute;
+}
+.wrap,
+ul {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.wrap img {
+  padding-left: 100px;
+}
+.wrap a {
+  color: white;
+  text-decoration: none;
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.intro h1 {
+  width: 500px;
+  border: 2px solid white;
+  color: white;
+  font-size: 64px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: start;
+  padding: 20px;
+  margin-left: 100px;
+}
+.intro {
+  padding-top: 300px;
+}
